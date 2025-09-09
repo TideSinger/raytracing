@@ -13,6 +13,8 @@ public:
 	int samples_per_pixel = 10; //random samples per pixel
 	int max_depth = 10; //max ray bounces in a scene
 
+	double vfov = 90; //vertical FOV
+
 	void render(const hittable& world) {
 		// ready variables and scene
 		initialize();
@@ -55,7 +57,9 @@ private:
 
 		// Calculate the image height, and ensure that it's at least 1.
 		auto focal_length = 1.0;
-		auto viewport_height = 2.0;
+		auto theta = degrees_to_radians(vfov);
+		auto h = std::tan(theta / 2);
+		auto viewport_height = 2 * h * focal_length;
 		auto viewport_width = viewport_height * (double(image_width) / image_height);
 	
 
