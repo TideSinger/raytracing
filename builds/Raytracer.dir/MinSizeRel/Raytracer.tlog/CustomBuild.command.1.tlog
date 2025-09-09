@@ -1,0 +1,10 @@
+^C:\USERS\CONBO\DESKTOP\RENDER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/conbo/Desktop/render -BC:/Users/conbo/Desktop/render/builds --check-stamp-file C:/Users/conbo/Desktop/render/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

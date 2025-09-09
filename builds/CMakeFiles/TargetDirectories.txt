@@ -1,0 +1,3 @@
+C:/Users/conbo/Desktop/render/builds/CMakeFiles/Raytracer.dir
+C:/Users/conbo/Desktop/render/builds/CMakeFiles/ALL_BUILD.dir
+C:/Users/conbo/Desktop/render/builds/CMakeFiles/ZERO_CHECK.dir

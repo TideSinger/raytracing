@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\conbo\Desktop\render\</FILEPATH>
+      <FILENAME>hittable.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'hit_record::front_face' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>hit_record::{ctor}</FUNCTION>
+    <DECORATED>??0hit_record@@QEAA@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>hit_record::front_face</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\conbo\Desktop\render\</FILEPATH>
+      <FILENAME>hittable.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'hit_record::t' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>hit_record::{ctor}</FUNCTION>
+    <DECORATED>??0hit_record@@QEAA@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>hit_record::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\conbo\Desktop\render\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'camera::image_height' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>camera::{ctor}</FUNCTION>
+    <DECORATED>??0camera@@QEAA@XZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>camera::image_height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\conbo\Desktop\render\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'camera::pixel_samples_scale' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>camera::{ctor}</FUNCTION>
+    <DECORATED>??0camera@@QEAA@XZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>camera::pixel_samples_scale</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

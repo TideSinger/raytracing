@@ -1,0 +1,250 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'hit_record::front_face' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/conbo/desktop/render/main.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/conbo/Desktop/render/hittable.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "hit_record::{ctor}",
+                  "decoratedName": "??0hit_record@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "hit_record::front_face"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'hit_record::t' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/conbo/desktop/render/main.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/conbo/Desktop/render/hittable.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "hit_record::{ctor}",
+                  "decoratedName": "??0hit_record@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "hit_record::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'camera::image_height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/conbo/desktop/render/main.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/conbo/Desktop/render/camera.h"
+                },
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "camera::{ctor}",
+                  "decoratedName": "??0camera@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "camera::image_height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'camera::pixel_samples_scale' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/conbo/desktop/render/main.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/conbo/Desktop/render/camera.h"
+                },
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "camera::{ctor}",
+                  "decoratedName": "??0camera@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "camera::pixel_samples_scale"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35214.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a63ba12095879d58c8d6dd5f3e19a088b89dfae93e8afca6b2ef6e7fe69cd1e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/conbo/Desktop/render/hittable.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0f082092697ee8ee28e33fd718c1187ad2a7936d2d9537f36b530803245b700d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/conbo/Desktop/render/camera.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9221b87924a228327dac8e526d0b72f8ffab0ea79322f2038d8ee5ced3606b75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/common.h"
+          },
+          "hashes": {
+            "sha-256": "6c24404113f6facea1a69116d960029ba6e1e11bba511e2dd994ebf18d26a7f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/color.h"
+          },
+          "hashes": {
+            "sha-256": "1e53ccc6c0169e8c483c11492df8a85f14f9660c5f359caf3da5fff67a499e85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/interval.h"
+          },
+          "hashes": {
+            "sha-256": "29e941ae2a97f0afbd39675d49d113d562970dbc7681b863846ad5d2f5564e5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/vec3.h"
+          },
+          "hashes": {
+            "sha-256": "32835c7fe02169ff6bc048050a4ed04e61ead1b5aae1f123a44d524988fbdcb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/ray.h"
+          },
+          "hashes": {
+            "sha-256": "8d4933de64d8ea088abdcd0d6e3a7ba0ef0c4540a3851d5cd320223f72bb755d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/material.h"
+          },
+          "hashes": {
+            "sha-256": "2a25e37ec40f19838a214766d5017dd8e3d802d72172e4c8478854ccb619b551"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/hittable_list.h"
+          },
+          "hashes": {
+            "sha-256": "fc05c062f328a51f103a46fcb27af4553e4e58a78a24a5259a4334191666ea35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/conbo/desktop/render/sphere.h"
+          },
+          "hashes": {
+            "sha-256": "af6fab2336f8c5f43d2fa8e4c8978bb5341f485abbf0014a0b55030bf32ba361"
+          }
+        }
+      ]
+    }
+  ]
+}
